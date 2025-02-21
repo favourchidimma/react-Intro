@@ -1,0 +1,35 @@
+:root{
+  --primary-red : #E50914;
+  --text-white: #fff;
+  --button-active: #BB0A12;
+  --button-hover: #F40612;
+  --primary-black: #000;
+  --grey-bg: #303030;
+  --text-h1: 6.4rem;
+  --text-h2: 5rem;
+  --body-reg: 2.6rem;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+h1{
+  font-size: var(--text-h1);
+}
+h2{
+  font-size: var(--text-h2);
+}
+p, h3{
+  font-size: var(--body-reg);
+}
+
+.subtitle{
+  font-size: 1.9rem;
+}
+
+
+body{
+  line-height: 1.2;
+  font-size: 1.6rem;
+}
