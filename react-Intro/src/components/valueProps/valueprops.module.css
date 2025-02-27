@@ -1,0 +1,24 @@
+.valueCtn{
+    height: 47rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9.5rem;
+    background-color: var(--primary-black);
+    color: var(--text-white);
+    padding: 7rem 41rem;
+}
+.valueCtn.reverse{
+    flex-direction: row-reverse;
+    gap: 9.5rem;
+}
+.imgCtn{
+    width: 50.5rem;
+    height: auto;
+}
+.textCtn p{
+    width: 70%;
+}
+.textCtn h2{
+    width: fit-content;
+}
