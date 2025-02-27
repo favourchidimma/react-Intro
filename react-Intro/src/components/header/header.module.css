@@ -1,0 +1,21 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.7rem;
+    margin: 2.3rem 5.6rem;
+    background: transparent;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+}
+.logoCtn{
+    width: 16.7rem;
+}
+.btnCtn{
+    display: flex;
+    gap: 3.2rem;
+}
+.btnCtn select{
+    border-radius: 3px;
+}

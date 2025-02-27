@@ -1,15 +1,17 @@
 import React from 'react'
-import home from "./home.module.css"
+import styles from "./home.module.css"
+import Header from '../../components/header'
 
 function Home() {
   return (
     <>
-        <div>
-            <h1 className={home.heading}> This is the home page</h1>
-        </div>
-        <div>
+      <div className={styles.heroSection}>
+        <Header />
 
+        <div className={styles.textCtn}>
+          
         </div>
+      </div>
     </>
   )
 }
