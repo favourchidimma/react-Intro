@@ -1,6 +1,25 @@
 .heroSection{
-    border: 2px solid red;
     width: 100%;
     height: 80vh;
-    background: url("../../assets/images/heroBg.png") center center/cover no-repeat;
+    background: url("../../assets/images/heroBg.png") center/cover no-repeat;
+    padding: 2.3rem 0 0;
+    margin: 0;
+}
+.textCtn{
+    height: calc(100% - 5.7rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    text-align: center;
+}
+.textCtn > div:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+}
+.textCtn > div:nth-of-type(1) > h1{
+    width: 70%;
 }
