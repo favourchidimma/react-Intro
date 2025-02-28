@@ -1,0 +1,16 @@
+.inputDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.9rem;
+}
+form{
+    display: flex;
+}
+form > input{
+    width: 50rem;
+    border: 1px solid #8C8C8C;
+    padding: 2.5rem .7rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
