@@ -1,11 +1,12 @@
 import React from 'react'
 
-const line = () => {
+const Line = () => {
   return (
-    <div>
-      <hr className="line"/>
+    <div className='line'>
+        
+      {/* <hr className="Line"/> */}
     </div>
   )
 }
 
-export default line
+export default Line
