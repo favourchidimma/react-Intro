@@ -1,4 +1,4 @@
-.valueCtn{
+.valueCtn {
     height: 47rem;
     display: flex;
     align-items: center;
@@ -8,17 +8,38 @@
     color: var(--text-white);
     padding: 7rem 41rem;
 }
-.valueCtn.reverse{
+
+.valueCtn.reverse {
     flex-direction: row-reverse;
     gap: 9.5rem;
 }
-.imgCtn{
+
+.imgCtn {
     width: 50.5rem;
     height: auto;
 }
-.textCtn p{
+
+.textCtn p {
     width: 70%;
 }
-.textCtn h2{
-    width: fit-content;
+
+
+@media (max-width: 1600px) {
+    .valueCtn {
+        padding: 7rem 35rem;
+    }
+}
+
+@media (max-width: 1440px) {
+    .valueCtn {
+        padding: 7rem 25rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .valueCtn {
+        flex-direction: column;
+        padding: 4rem 5rem;
+        text-align: center;
+    }
 }
